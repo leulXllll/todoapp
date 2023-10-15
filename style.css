@@ -1,0 +1,51 @@
+body{
+
+    background: linear-gradient( 120deg, #1b2b32 60%,lightblue);
+    height: 100vh;
+
+}
+.contanier{
+
+background-color: rgba(0,255,255,0.5);
+height: 375px;
+width: 350px;
+margin: auto;
+margin-top: 100px;
+border: 10px solid gray;
+border-radius: 10%;
+box-shadow:  -5px 5px 5px 5px ;
+}
+.row{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #edeef0;
+border-radius: 30px;
+padding-left: 20px;
+margin-bottom: 20px;
+
+}
+input{
+
+border: none;
+outline: none;
+background: transparent;
+
+}
+h1{
+
+  text-align: center;
+
+}
+button{
+    
+    outline: none;
+    border: none;
+    border-radius: 25%;
+    background-color: cyan;
+    padding: 12px;
+    
+    
+
+}
