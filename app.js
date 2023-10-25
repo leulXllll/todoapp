@@ -1,11 +1,14 @@
-const checkbox = document.getElementById("check")
-const input = document.getElementById("input")
+let input = document.getElementById("input1")
 
-checkbox.addEventListener("change",function(){
+let ths = createElement(input)
+body.append(ths)
 
-if(checkbox.checked){
-    input.classList.add("h1")
+function add(){
+
+let list1 = document.createElement('div')
+list1.innerHTML = "<input type='text' id='newInputBox' Onclick='remove()' "
+
+document.getElementById("newElementId").appendChild(list1)
+
+
 }
-
-
-})

@@ -1,11 +1,12 @@
 body{
 
-    background: linear-gradient( 120deg, #1b2b32 60%,lightblue);
+    background: linear-gradient( 135deg, #1b2b32 90%,lightgray);
     height: 100vh;
 
 }
 .contanier{
-
+/*position: fixed;*/
+left: 450px;
 background-color: rgba(0,255,255,0.5);
 height: 375px;
 width: 350px;
@@ -13,7 +14,7 @@ margin: auto;
 margin-top: 100px;
 border: 10px solid gray;
 border-radius: 10%;
-box-shadow:  -5px 5px 5px 5px ;
+
 }
 .row{
 
@@ -26,7 +27,7 @@ padding-left: 20px;
 margin-bottom: 20px;
 
 }
-input{
+input[type="text"]{
 
 border: none;
 outline: none;
@@ -38,7 +39,7 @@ h1{
   text-align: center;
 
 }
-button{
+input[type="button"]{
     
     outline: none;
     border: none;

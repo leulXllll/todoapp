@@ -5,7 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do list </title>
-
+  <!--<style>
+    .spiner{
+      text-align: start;
+      border-radius: 50%;
+      background-color: orangered;
+      border-top: 20px solid  indigo;
+      height: 100px;
+      width: 100px;
+      animation: ani 2.5s linear infinite;
+    }
+    @keyframes ani{
+      to{
+        transform: rotate(360deg);
+      }
+    }
+  </style>-->
 </head>
 <body>
     <div class="contanier">
@@ -13,11 +28,16 @@
     
      
     <div class="row">
-     <input type="text" placeholder="Add your text">
-     <button>Add</button>
-    </div>
+      <form method="post"   id="formulario">
+     <input type="text" placeholder="Add your text" id="input1">
+     <input type="button" value="Add" onclick="add()">
+     <input id="newElementId">
      
-    <div>
+     </form>
+    </div>
+     <!--<div class="spiner">
+      
+    </div>-->
       <script src="app.js"></script>  
 </body>
 </html>
