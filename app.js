@@ -1,14 +1,7 @@
-let input = document.getElementById("input1")
-
-let ths = createElement(input)
-body.append(ths)
-
 function add(){
-
-let list1 = document.createElement('div')
-list1.innerHTML = "<input type='text' id='newInputBox' Onclick='remove()' "
-
-document.getElementById("newElementId").appendChild(list1)
-
+    let div = document.createElement('div')
+div.innerHTML = "<input type='text'  placeholder='write your text here' class='inpu1'>"
+    let place = document.querySelector(".place")
+ place.append(div) 
 
 }

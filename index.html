@@ -23,21 +23,22 @@
   </style>-->
 </head>
 <body>
-    <div class="contanier">
-      <h1>To do list </h1>
+  <div class="outer">
+   <div class="contanier"> 
+    <h1>To do list </h1>
+    <div id="inner">
+    <input type="checkbox">
+     <input type="text" placeholder="write your text here" class="inpu1">
     
+     <button class="btn" onclick="add()">Add</button> 
+     <div class="place"> 
+ 
+     </div>
      
-    <div class="row">
-      <form method="post"   id="formulario">
-     <input type="text" placeholder="Add your text" id="input1">
-     <input type="button" value="Add" onclick="add()">
-     <input id="newElementId">
-     
-     </form>
     </div>
-     <!--<div class="spiner">
-      
-    </div>-->
+   </div>
+  </div>
+
       <script src="app.js"></script>  
 </body>
 </html>
