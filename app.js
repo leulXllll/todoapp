@@ -1,13 +1,15 @@
+let counter = 0;
 function add(){
-    let counter = 0;
-   
+    
+   if (counter<8){
     let div = document.createElement('div')
 div.innerHTML = ` <div id='inputId'><input type='checkbox' class='check'><input type='text'  placeholder='write your text here' class='inpu1'></div>`
   let place = document.querySelector(".place")
  place.append(div) 
  
 
-    
+   }
+   counter++
     
 }
 function remove(inputId) {
