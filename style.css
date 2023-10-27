@@ -46,3 +46,13 @@ h1{
   margin-left: 20px;
   
 }
+.btn2{
+
+  padding: 7px;
+}
+.btn2:hover{
+  background-color: red;
+  padding: 7px;
+  outline: none;
+  border: none;
+}
