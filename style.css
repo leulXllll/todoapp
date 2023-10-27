@@ -43,12 +43,13 @@ h1{
   border: none;
 }
 .check{
-  margin-left: 20px;
+  margin-left: 10px;
   
 }
 .btn2{
-
-  padding: 7px;
+  display: inline-block;
+  padding: 4px;
+  width: 50px;
 }
 .btn2:hover{
   background-color: red;
